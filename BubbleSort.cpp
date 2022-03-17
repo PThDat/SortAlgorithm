@@ -1,4 +1,4 @@
-void BubbleSort(int* arr, int len)
+void BubbleSort(int (&arr)[len])
 {
     int count = 1;
     while (count < len)
