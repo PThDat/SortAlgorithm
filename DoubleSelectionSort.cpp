@@ -1,4 +1,4 @@
-void DoubleSelectionSort(int* arr, int len)
+void DoubleSelectionSort(int (&arr)[len])
 {
     for (int i = 0; i < len / 2; i++)
     {
