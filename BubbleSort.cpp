@@ -1,3 +1,4 @@
+template<size_t len>
 void BubbleSort(int (&arr)[len])
 {
     int count = 1;
